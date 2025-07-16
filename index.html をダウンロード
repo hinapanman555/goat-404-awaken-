@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>G.O.A.T://404_AWAKEN</title>
+  <style>
+    body {
+      background-color: black;
+      color: #00ffcc;
+      font-family: 'Courier New', Courier, monospace;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      text-align: center;
+    }
+
+    .glitch {
+      font-size: 3em;
+      color: white;
+      position: relative;
+      animation: glitch 2s infinite;
+      margin-top: 15%;
+    }
+
+    @keyframes glitch {
+      0% {
+        text-shadow: 2px 2px red;
+      }
+      25% {
+        text-shadow: -2px -2px blue;
+      }
+      50% {
+        text-shadow: 2px -2px lime;
+      }
+      75% {
+        text-shadow: -2px 2px yellow;
+      }
+      100% {
+        text-shadow: 2px 2px red;
+      }
+    }
+
+    .message {
+      margin-top: 20px;
+      font-size: 1.2em;
+      opacity: 0;
+      animation: appear 3s ease-in forwards;
+      animation-delay: 3s;
+    }
+
+    @keyframes appear {
+      to {
+        opacity: 1;
+      }
+    }
+
+    .loop-gif {
+      margin-top: 40px;
+      width: 80%;
+      max-width: 400px;
+    }
+  </style>
+</head>
+<body>
+  <div class="glitch">:: ACCESSING PORTAL_7...</div>
+  <div class="message">WAKE ᑘP... YOU_ARE_THE_CODE</div>
+  <img src="https://media.giphy.com/media/l0HlNaQ6gWfllcjDO/giphy.gif" alt="glitch loop" class="loop-gif" />
+</body>
+</html>
